@@ -1,0 +1,61 @@
+# Binaries and executable files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+*.bin
+*.out
+
+# Dependency directories (remove these lines if you're using Go modules)
+/vendor/
+Godeps/
+
+# Object files, archives, etc
+*.o
+*.a
+*.obj
+*.lo
+*.ko
+*.elf
+
+# Compiled Go source files
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-specific output
+/dist
+/build
+
+# External tool caches (like vet)
+*.test
+
+# Go build cache
+build/
+
+# GoLand configuration directory
+.idea/
+
+# Visual Studio Code directory
+.vscode/
+
+# Mac OS X specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Node.js dependencies (if you're using Node.js in your project)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
